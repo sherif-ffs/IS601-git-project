@@ -90,3 +90,16 @@ When we create a repository on GitHub, it exists as a remote repository. We can 
 6. Type git clone, and then paste the URL you copied in Step 2
 
 7. Press Enter. Your local clone will be created.
+
+**Pull Request 
+
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. 
+
+Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+
+
+When you file a pull request, all you’re doing is requesting that another developer pulls a branch from your repository into their repository. 
+
+This means that you need to provide 4 pieces of information to file a pull request: the source repository, the source branch, the destination repository, and the destination branch.
+
+
