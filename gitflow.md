@@ -67,4 +67,17 @@ A fork is nothing but a copy of the repository.
 Forking a repository allows you to freely experiment with changes without affecting the original project.
 In the homepage of your organization’s project, you can see a button named, “Fork” in the right top.
 
+When we fork the repo we just created in the organization, it will ask under which account we want to create this fork. 
+Click on your account where do you see the username and the profile picture. We will get the copy of your organization’s repo. It's called the fork of the organization's repo.
+
+3. Cloning
+
+When we create a repository on GitHub, it exists as a remote repository. We can clone your repository to create a local copy on your computer and sync between the two locations.
+
+
+Steps for cloning:
+
+1. On GitHub, navigate to the main page of the repository.
+2. Under the repository name, click Clone or download.
+
 
