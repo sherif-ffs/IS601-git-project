@@ -126,17 +126,36 @@ New commits are recorded in the history for the current branch, which results in
 
 **Merge conflicts**
 
-	Conflicts generally arise when two people have changed the same lines in a file, or if one developer deleted a file while another developer was modifying it.
+Conflicts generally arise when two people have changed the same lines in a file, or if one developer deleted a file while another developer was modifying it.
 
-	 In these cases, Git cannot automatically determine what is correct. Conflicts only affect the developer conducting the merge, the rest of the team is unaware of the conflict. 
+In these cases, Git cannot automatically determine what is correct. Conflicts only affect the developer conducting the merge, the rest of the team is unaware of the conflict. 
 
-	Git will mark the file as being conflicted and halt the merging process. It is then the developers' responsibility to resolve the conflict.
+Git will mark the file as being conflicted and halt the merging process. It is then the developers' responsibility to resolve the conflict.
 
 
-	Creating a merge conflict:
+**Creating a merge conflict
 
-o	Create a new directory named git-merge-test, change to that directory, and initialize it as a new Git repo.
+oCreate a new directory named git-merge-test, change to that directory, and initialize it as a new Git repo.
 
-o	Create a new text file merge.txt with some content in it.
+oCreate a new text file merge.txt with some content in it.
 
-o	Add merge.txt to the repo and commit it
+oAdd merge.txt to the repo and commit it
+
+Creating a merge conflict:
+
+Create a new directory named git-merge-test, change to that directory, and initialize it as a new Git repo.
+
+Create a new text file merge.txt with some content in it.
+
+Add merge.txt to the repo and commit it
+Now we have a new repo with one branch master and a file merge.txt with content in it.
+o	Next, we will create a new branch to use as the conflicting merge.
+	create and check out a new branch named new_branch_to_merge_later
+	overwrite the content in merge.txt
+	commit the new content
+
+•	With this new branch: new_branch_to_merge_later we have created a commit that overrides the content of merge.txt
+•	This chain of commands checks out the master branch, appends content to merge.txt, and commits it.
+•	This now puts our example repo in a state where we have 2 new commits. One in the master branch and one in the       new_branch_to_merge_later branch
+
+
