@@ -174,3 +174,5 @@ o	Next, we will create a new branch to use as the conflicting merge.
 	git status  -- It will help identify conflicted files
 	git log –merge  -- Passing the --merge argument to the git log command will produce a log with a list of commits that conflict between the merging branches.
 	git diff --    diff helps find differences between states of a repository/files. This is useful in predicting and preventing merge conflicts
+
+![merge conflict meme](https://media.makeameme.org/created/one-does-not-5bfeec.jpg)
