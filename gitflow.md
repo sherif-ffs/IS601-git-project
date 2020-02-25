@@ -159,3 +159,13 @@ o	Next, we will create a new branch to use as the conflicting merge.
 •	This now puts our example repo in a state where we have 2 new commits. One in the master branch and one in the       new_branch_to_merge_later branch
 
 
+•	Open the merge.txt file.
+•	Once the file has been edited use git add merge.txt to stage the new merged content. To finalize the merge create a new commit by executing:
+•	Git will see that the conflict has been resolved and creates a new merge commit to finalize the merge.
+
+
+	Tools to resolve merge conflicts:
+
+	git status  -- It will help identify conflicted files
+	git log –merge  -- Passing the --merge argument to the git log command will produce a log with a list of commits that conflict between the merging branches.
+	git diff --    diff helps find differences between states of a repository/files. This is useful in predicting and preventing merge conflicts
