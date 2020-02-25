@@ -17,7 +17,7 @@ Referred to as branching model.
 •	Develop serves as an integration branch for features.
 •	Master branch stores the official release history.
 
-**Feature Branches :
+**Feature Branches**
 
 •	New development (new features, non-emergency bug fixes) are built in feature branches.
 •	Feature branch uses develop as its parent branch.
@@ -31,7 +31,7 @@ o	Only bug fixes, documentation generation and other release oriented tasks are 
 o	When develop has acquired enough features for release, we can fork a release of develop.
 o	Once it is ready to ship, release branch gets merged into master.
 
-**Git
+**Git**
 
 Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
 
@@ -40,7 +40,7 @@ Git has three main states that your files can reside in: modified, staged, and c
 •	Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
 •	Committed means that the data is safely stored in your local database.
 
-**Identity
+**Identity**
 
 The first thing we should do when we install Git is to set your user name and email address. This is important because every Git commit uses this information.
 
@@ -102,4 +102,17 @@ When you file a pull request, all you’re doing is requesting that another deve
 
 This means that you need to provide 4 pieces of information to file a pull request: the source repository, the source branch, the destination repository, and the destination branch.
 
+**Steps in creating pull request**
+
+Step 1: Fork the original project into your own GitHub account, and then clone it to your computer.
+
+Step 2: Make a local branch for your new code.
+
+Step 3: Create a text file and push it to the github.
+
+Step 4: Merge your branch into master, and then delete it
+
+Step 5: Stage. Commit. Push.
+
+Step 6 : New pull request.
 
