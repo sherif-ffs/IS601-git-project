@@ -24,7 +24,6 @@ Referred to as branching model.
 •	When feature is complete, it gets merged back into develop branch when they are ready for release.
 •	It shouldn’t interact directly with the master branch.
 
-<img src=C:\Users\ajkum\Desktop"\fb.png">
 
 **Release branches**
 
@@ -41,6 +40,8 @@ Git has three main states that your files can reside in: modified, staged, and c
 •	Modified means that you have changed the file but have not committed it to your database yet.
 •	Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
 •	Committed means that the data is safely stored in your local database.
+
+![git workflow](https://hackernoon.com/hn-images/1*9qX9F9MGsWKfcmgTOR9BPw.png)
 
 **Identity**
 
