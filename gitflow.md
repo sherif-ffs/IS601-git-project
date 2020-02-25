@@ -73,6 +73,7 @@ In the homepage of your organization’s project, you can see a button named, �
 When we fork the repo we just created in the organization, it will ask under which account we want to create this fork. 
 Click on your account where do you see the username and the profile picture. We will get the copy of your organization’s repo. It's called the fork of the organization's repo.
 
+![image for forking](https://www.earthdatascience.org/images/workshops/version-control/git-fork-clone-flow.png)
 **Cloning**
 
 When we create a repository on GitHub, it exists as a remote repository. We can clone your repository to create a local copy on your computer and sync between the two locations.
