@@ -56,7 +56,15 @@ If you want to check your configuration settings, you can use the git list comma
 
 1. Adding a collaborator 
 
-	Go to the homepage of GitHub or click here to see the following screen.
+Go to the homepage of GitHub or click here to see the following screen.
 
+At the right top, you have this + icon, clicking on it will open up this drop-down window and add  in some basic details like the organization name, Email ID, etc.
+
+
+2. Forking 
+
+A fork is nothing but a copy of the repository. 
+Forking a repository allows you to freely experiment with changes without affecting the original project.
+In the homepage of your organization’s project, you can see a button named, “Fork” in the right top.
 
 
