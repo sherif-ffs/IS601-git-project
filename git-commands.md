@@ -5,3 +5,4 @@
 ###### Fork - Git command which copies a repository, allowing the user to freely experiment and change things, often used to propose changes to someone else's project.
 ###### Branch - A branch is an independent line of development.
 ###### Commit - A commit is a revision to a file or set of files.
+###### Merge - Combining separate branches into a single unified branch
