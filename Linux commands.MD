@@ -52,3 +52,11 @@ Mv is a command which lets you move files or directories, takes two arguments, t
 > Vagrant@docker-test:~$ `mv [OPTION]... SOURCE... DIRECTORY`
 
 upon this command, the file is moved from the mentioned source to destination.
+
+***rm***
+
+This command is used to remove a file or a directory in linux.
+
+> Vagrant@docker-test:~$ `rm file-name`
+
+upon this command, the file name mentioned is deleted.
