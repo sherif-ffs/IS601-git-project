@@ -7,3 +7,4 @@
 ###### Commit - A commit is a revision to a file or set of files.
 ###### Merge - Combining separate branches into a single unified branch
 ###### Checkout - Git command used to create a new branch (git checkout -b) or to navigate to an existing branch (git checkout existing-branch) Similar to the cd command but for branches.
+###### Push - Git command to upload your local commits(revisions) to a remote repository, the one on github.com for example.
