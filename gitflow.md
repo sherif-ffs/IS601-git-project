@@ -31,4 +31,14 @@ o	Only bug fixes, documentation generation and other release oriented tasks are 
 o	When develop has acquired enough features for release, we can fork a release of develop.
 o	Once it is ready to ship, release branch gets merged into master.
 
+**Git
+
+Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+Git has three main states that your files can reside in: modified, staged, and committed:
+•	Modified means that you have changed the file but have not committed it to your database yet.
+•	Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+•	Committed means that the data is safely stored in your local database.
+
+
 
