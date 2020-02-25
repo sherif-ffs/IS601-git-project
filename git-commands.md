@@ -10,3 +10,4 @@
 ###### Push - Git command to upload your local commits(revisions) to a remote repository, the one on github.com for example.
 ###### Pull - Git command which bring a local repository up to date with a remote repository, one on github.com for example.
 ###### Remote Add / Remove / Show - Remote add/remove/show adds/removes/shows a remote branch
+###### Status - Git status is a way to check which files have been changed while you’re working
