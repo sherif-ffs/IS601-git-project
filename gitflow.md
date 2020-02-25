@@ -24,7 +24,9 @@ Referred to as branching model.
 •	When feature is complete, it gets merged back into develop branch when they are ready for release.
 •	It shouldn’t interact directly with the master branch.
 
-**Release branches
+<img src=C:\Users\ajkum\Desktop"\fb.png">
+
+**Release branches**
 
 o	When it is time to make a release, a release branch comes into action and it is created off of develop.
 o	Only bug fixes, documentation generation and other release oriented tasks are performed by release branch.
