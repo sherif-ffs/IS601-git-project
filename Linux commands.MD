@@ -5,3 +5,11 @@ The Cd command is used to change the current working directory. This is used whe
 > Vagrant@docker-test:~$ `cd` IS601 
 
 upon this command, we toggle from current directory to IS601 directory.
+
+***mkdir***
+
+The mkdir command is used to create a new directory in whatever directory you are currently in.
+
+> Vagrant@docker-test:~$ `mkdir directory-name`
+
+upon this command, a new directory named as the user mentioned is created.
