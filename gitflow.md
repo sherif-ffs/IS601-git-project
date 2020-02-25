@@ -40,5 +40,23 @@ Git has three main states that your files can reside in: modified, staged, and c
 •	Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
 •	Committed means that the data is safely stored in your local database.
 
+**Identity
+
+The first thing we should do when we install Git is to set your user name and email address. This is important because every Git commit uses this information.
+
+**Editor
+			
+We can configure the default text editor that will be used when Git needs you to type in a message. If not configured, Git uses your system’s default editor.
+
+**Checking the settings
+
+If you want to check your configuration settings, you can use the git list command to list all the settings Git can find at that point.
+
+**Working collaboratively on github:
+
+1. Adding a collaborator 
+
+	Go to the homepage of GitHub or click here to see the following screen.
+
 
 
