@@ -33,3 +33,12 @@ This linux command which stands for present working directory, basically lets yo
 `/home/vagrant/IS601`
 
 upon using this command, it lets us now that we are in the IS601 directory.
+
+***ls***
+
+This command lets you see all of the files and other directories that exist in the directory that you are currently in.
+
+> Vagrant@docker-test:~$ `ls`
+`IS601 IS601test`
+
+upon using this command, it lists all the directories and branches.
