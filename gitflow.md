@@ -95,6 +95,7 @@ When we create a repository on GitHub, it exists as a remote repository. We can 
 
 7. Press Enter. Your local clone will be created.
 
+![image for cloning](https://opensource.com/sites/default/files/u128651/git_guide12.png)
 **Pull Request **
 
 Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. 
