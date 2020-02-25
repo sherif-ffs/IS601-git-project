@@ -124,3 +124,19 @@ We can think of them as a way to request a brand new working directory, staging 
 
 New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
 
+**Merge conflicts**
+
+	Conflicts generally arise when two people have changed the same lines in a file, or if one developer deleted a file while another developer was modifying it.
+
+	 In these cases, Git cannot automatically determine what is correct. Conflicts only affect the developer conducting the merge, the rest of the team is unaware of the conflict. 
+
+	Git will mark the file as being conflicted and halt the merging process. It is then the developers' responsibility to resolve the conflict.
+
+
+	Creating a merge conflict:
+
+o	Create a new directory named git-merge-test, change to that directory, and initialize it as a new Git repo.
+
+o	Create a new text file merge.txt with some content in it.
+
+o	Add merge.txt to the repo and commit it
