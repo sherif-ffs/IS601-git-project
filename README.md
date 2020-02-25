@@ -1,6 +1,6 @@
 
 ## IS601 Git Project
-### Sherif, Ajay, Yahya
+### Sherif, Ajay, Yahya (the group which deleted their entire repository)
 
 ### Index 📚
 #### - [Git, Docker, and Continuous Integration](https://github.com/sherif-ffs/IS601-git-project/blob/master/project-description.md)
