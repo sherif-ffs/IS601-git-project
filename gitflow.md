@@ -24,7 +24,7 @@ Referred to as branching model.
 •	When feature is complete, it gets merged back into develop branch when they are ready for release.
 •	It shouldn’t interact directly with the master branch.
 
-**Release branches:
+**Release branches
 
 o	When it is time to make a release, a release branch comes into action and it is created off of develop.
 o	Only bug fixes, documentation generation and other release oriented tasks are performed by release branch.
@@ -44,24 +44,24 @@ Git has three main states that your files can reside in: modified, staged, and c
 
 The first thing we should do when we install Git is to set your user name and email address. This is important because every Git commit uses this information.
 
-**Editor
+**Editor**
 			
 We can configure the default text editor that will be used when Git needs you to type in a message. If not configured, Git uses your system’s default editor.
 
-**Checking the settings
+**Checking the settings**
 
 If you want to check your configuration settings, you can use the git list command to list all the settings Git can find at that point.
 
-**Working collaboratively on github:
+**Working collaboratively on github**
 
-**Adding a collaborator 
+**Adding a collaborator**
 
 Go to the homepage of GitHub or click here to see the following screen.
 
 At the right top, you have this + icon, clicking on it will open up this drop-down window and add  in some basic details like the organization name, Email ID, etc.
 
 
-2**Forking 
+**Forking**
 
 A fork is nothing but a copy of the repository. 
 Forking a repository allows you to freely experiment with changes without affecting the original project.
@@ -70,12 +70,12 @@ In the homepage of your organization’s project, you can see a button named, �
 When we fork the repo we just created in the organization, it will ask under which account we want to create this fork. 
 Click on your account where do you see the username and the profile picture. We will get the copy of your organization’s repo. It's called the fork of the organization's repo.
 
-3**Cloning
+**Cloning**
 
 When we create a repository on GitHub, it exists as a remote repository. We can clone your repository to create a local copy on your computer and sync between the two locations.
 
 
-**Steps for cloning:
+**Steps for cloning**
 
 1. On GitHub, navigate to the main page of the repository.
 
@@ -91,7 +91,7 @@ When we create a repository on GitHub, it exists as a remote repository. We can 
 
 7. Press Enter. Your local clone will be created.
 
-**Pull Request 
+**Pull Request **
 
 Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. 
 
@@ -115,4 +115,12 @@ Step 4: Merge your branch into master, and then delete it
 Step 5: Stage. Commit. Push.
 
 Step 6 : New pull request.
+
+**Branching**
+
+A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process
+ 
+We can think of them as a way to request a brand new working directory, staging area, and project history. 
+
+New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
 
