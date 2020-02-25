@@ -4,7 +4,7 @@ A set of guidelines developers can follow when using version control.
 
 Referred to as branching model.
 
-**Git FLow Working
+**Git FLow Working**
 
 •	Works with the help of central repository.
 •	Developers can clone the central repository and can work locally.
@@ -54,14 +54,14 @@ If you want to check your configuration settings, you can use the git list comma
 
 **Working collaboratively on github:
 
-1. Adding a collaborator 
+**Adding a collaborator 
 
 Go to the homepage of GitHub or click here to see the following screen.
 
 At the right top, you have this + icon, clicking on it will open up this drop-down window and add  in some basic details like the organization name, Email ID, etc.
 
 
-2. Forking 
+2**Forking 
 
 A fork is nothing but a copy of the repository. 
 Forking a repository allows you to freely experiment with changes without affecting the original project.
@@ -70,14 +70,23 @@ In the homepage of your organization’s project, you can see a button named, �
 When we fork the repo we just created in the organization, it will ask under which account we want to create this fork. 
 Click on your account where do you see the username and the profile picture. We will get the copy of your organization’s repo. It's called the fork of the organization's repo.
 
-3. Cloning
+3**Cloning
 
 When we create a repository on GitHub, it exists as a remote repository. We can clone your repository to create a local copy on your computer and sync between the two locations.
 
 
-Steps for cloning:
+**Steps for cloning:
 
 1. On GitHub, navigate to the main page of the repository.
+
 2. Under the repository name, click Clone or download.
 
+3.To clone the repository using HTTPS, under "Clone with HTTPS", click. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click.
 
+4. Open Git Bash.
+
+5. Change the current working directory to the location where you want the cloned directory to be made.
+
+6. Type git clone, and then paste the URL you copied in Step 2
+
+7. Press Enter. Your local clone will be created.
